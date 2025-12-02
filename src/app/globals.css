@@ -1,0 +1,36 @@
+:root {
+  color-scheme: light dark;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #050505;
+  color: #f3f3f3;
+}
+
+.generated-page {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.breadcrumb {
+  display: flex;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.breadcrumb a {
+  color: #61dafb;
+  text-decoration: none;
+}
+
+.generated-template {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 1rem;
+  padding: 1.5rem;
+  background: rgba(255, 255, 255, 0.03);
+}
